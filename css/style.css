@@ -961,5 +961,15 @@ a {
     -o-transform: translate(0, -50%);
 }
 
+.forgot {
+    font-size: 25px;
+    line-height: 25px;
+    color: #112646;
+    text-align: right;
+    display: inline-block;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+}
+
 
 /* login page end */
