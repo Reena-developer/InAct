@@ -1,0 +1,154 @@
+/* bold */
+
+@font-face {
+    font-family: 'segoeuibold';
+    src: url('fonts/segoeuibold.eot');
+    src: url('fonts/segoeuibold.eot') format('embedded-opentype'), url('fonts/segoeuibold.woff2') format('woff2'), url('fonts/segoeuibold.woff') format('woff'), url('fonts/segoeuibold.ttf') format('truetype'), url('fonts/segoeuibold.svg#segoeuibold') format('svg');
+}
+
+
+/* regular */
+
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('fonts/SegoeUI.eot');
+    src: url('fonts/SegoeUI.eot') format('embedded-opentype'), url('fonts/SegoeUI.woff2') format('woff2'), url('fonts/SegoeUI.woff') format('woff'), url('fonts/SegoeUI.ttf') format('truetype'), url('fonts/SegoeUI.svg#SegoeUI') format('svg');
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('fonts/Segoe+UI.eot');
+    src: url('fonts/Segoe+UI.eot?#iefix') format('embedded-opentype'), url('fonts/Segoe+UI.otf') format('otf'), url('fonts/Segoe+UI.svg#Segoe%20UI') format('svg'), url('fonts/Segoe+UI.ttf') format('truetype'), url('fonts/Segoe+UI.woff') format('woff'), url('fonts/Segoe+UI.woff2') format('woff2');
+}
+
+
+/* black */
+
+@font-face {
+    font-family: 'seguibl';
+    src: url('fonts/seguibl.eot');
+    src: url('fonts/seguibl.eot') format('embedded-opentype'), url('fonts/seguibl.woff2') format('woff2'), url('fonts/seguibl.woff') format('woff'), url('fonts/seguibl.ttf') format('truetype'), url('fonts/seguibl.svg#seguibl') format('svg');
+}
+
+
+/* semi-bold */
+
+@font-face {
+    font-family: 'seguisb';
+    src: url('fonts/seguisb.eot');
+    src: url('fonts/seguisb.eot?#iefix') format('embedded-opentype'), url('fonts/seguisb.otf') format('otf'), url('fonts/seguisb.svg#seguisb') format('svg'), url('fonts/seguisb.ttf') format('truetype'), url('fonts/seguisb.woff') format('woff'), url('fonts/seguisb.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Berlin Sans FB Demi Bold';
+    src: url('fonts/Berlin+Sans+FB+Demi+Bold.eot');
+    src: url('fonts/Berlin+Sans+FB+Demi+Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Berlin+Sans+FB+Demi+Bold.otf') format('otf'), url('fonts/Berlin+Sans+FB+Demi+Bold.svg#Berlin%20Sans%20FB%20Demi%20Bold') format('svg'), url('fonts/Berlin+Sans+FB+Demi+Bold.ttf') format('truetype'), url('fonts/Berlin+Sans+FB+Demi+Bold.woff') format('woff'), url('fonts/Berlin+Sans+FB+Demi+Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'FontsFree-Net-Segoe-UI-Bold';
+    src: url('fonts/FontsFree-Net-Segoe-UI-Bold+%281%29.eot');
+    src: url('fonts/FontsFree-Net-Segoe-UI-Bold+%281%29.eot?#iefix') format('embedded-opentype'), url('fonts/FontsFree-Net-Segoe-UI-Bold+%281%29.otf') format('otf'), url('fonts/FontsFree-Net-Segoe-UI-Bold+%281%29.svg#FontsFree-Net-Segoe-UI-Bold%20%281%29') format('svg'), url('fonts/FontsFree-Net-Segoe-UI-Bold+%281%29.ttf') format('truetype'), url('fonts/FontsFree-Net-Segoe-UI-Bold+%281%29.woff') format('woff'), url('fonts/FontsFree-Net-Segoe-UI-Bold+%281%29.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUI.woff2') format('woff2'), url('SegoeUI.woff') format('woff'), url('SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUI-Bold.woff2') format('woff2'), url('SegoeUI-Bold.woff') format('woff'), url('SegoeUI-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUI-Italic.woff2') format('woff2'), url('SegoeUI-Italic.woff') format('woff'), url('SegoeUI-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: url('SegoeUI-Semilight.woff2') format('woff2'), url('SegoeUI-Semilight.woff') format('woff'), url('SegoeUI-Semilight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUI-BoldItalic.woff2') format('woff2'), url('SegoeUI-BoldItalic.woff') format('woff'), url('SegoeUI-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUI-Light.woff2') format('woff2'), url('SegoeUI-Light.woff') format('woff'), url('SegoeUI-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUIBlack.woff2') format('woff2'), url('SegoeUIBlack.woff') format('woff'), url('SegoeUIBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUI-SemiboldItalic.woff2') format('woff2'), url('SegoeUI-SemiboldItalic.woff') format('woff'), url('SegoeUI-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUI-Semibold.woff2') format('woff2'), url('SegoeUI-Semibold.woff') format('woff'), url('SegoeUI-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUI-LightItalic.woff2') format('woff2'), url('SegoeUI-LightItalic.woff') format('woff'), url('SegoeUI-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('SegoeUIBlack-Italic.woff2') format('woff2'), url('SegoeUIBlack-Italic.woff') format('woff'), url('SegoeUIBlack-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: url('SegoeUI-SemilightItalic.woff2') format('woff2'), url('SegoeUI-SemilightItalic.woff') format('woff'), url('SegoeUI-SemilightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url(./Myriad+Pro+Regular.eot);
+    src: url(./Myriad+Pro+Regular.eot?#iefix) format('embedded-opentype'), url(./Myriad+Pro+Regular.otf) format('otf'), url(./Myriad+Pro+Regular.svg#Myriad%20Pro%20Regular) format('svg'), url(./Myriad+Pro+Regular.ttf) format('truetype'), url(./Myriad+Pro+Regular.woff) format('woff'), url(./Myriad+Pro+Regular.woff2) format('woff2');
+}
