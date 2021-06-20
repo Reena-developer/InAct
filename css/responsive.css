@@ -1,30 +1,558 @@
-/*///////////////////////////////////////////////////////////////////////// Responsive CSS Structure /////////////////////////////////////////////////////////////////////////*/
-
-
-/*---------- Small Mobile , IPhone Start ----------*/
-
-
-/*=== Screen Size = 240, 320, 360, 480, 568 ===*/
-
-@media (min-width: 240px) and (max-width: 568px) {}
-
-@media (min-width: 569px) and (max-width: 767px) {}
-
-@media (max-width: 767px) {}
-
-@media (min-width: 768px) {}
-
-@media (min-width: 768px) and (max-width: 991px) {}
-
-@media (min-width: 992px) and (max-width: 1199px) {}
-
-@media (min-width: 1200px) and (max-width: 1299px) {}
-
-@media (min-width: 1300px) {
-    .container {
-        max-width: 1270px;
+    /*///////////////////////////////////////////////////////////////////////// Responsive CSS Structure /////////////////////////////////////////////////////////////////////////*/
+    /*---------- Small Mobile , IPhone Start ----------*/
+    /*=== Screen Size = 240, 320, 360, 480, 568 ===*/
+    
+    @media (min-width: 240px) and (max-width: 568px) {}
+    
+    @media (min-width: 569px) and (max-width: 767px) {}
+    
+    @media (max-width: 767px) {
+        /* header start */
+        .search-bar input {
+            width: auto;
+        }
+        .section-title h1,
+        .section-title h2,
+        .section-title h3,
+        .section-title h4,
+        .section-title h5,
+        .section-title h6 {
+            font-size: 26px;
+            line-height: 31px;
+            margin: 0 0 25px;
+        }
+        .verification {
+            padding: 30px 0 30px;
+        }
+        /* header end */
+        /* login page start */
+        .login-page-main {
+            margin: 50px 0 22px;
+        }
+        .login-page .nav-tabs .nav-item .nav-link {
+            font-size: 21px;
+            line-height: 21px;
+            padding: 14px 10px;
+        }
+        .or span::after {
+            width: 65px;
+        }
+        .or span::before {
+            width: 65px;
+        }
+        .socail-icon li a {
+            width: 32px;
+            height: 37px;
+        }
+        .socail-icon li a img {
+            width: 35px;
+        }
+        .login-page {
+            max-width: 100%;
+            border: none;
+        }
+        .socail-icon li {
+            padding: 0 7px;
+        }
+        .login-details h2 {
+            margin: 30px 0 17px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        .custom-form {
+            width: auto;
+        }
+        .custom-form .form-control {
+            height: auto;
+            font-size: 18px;
+            lighting-color: 18px;
+            padding: 15px;
+        }
+        .or span {
+            font-size: 21px;
+            line-height: 21px;
+        }
+        .forgot {
+            font-size: 18px;
+            line-height: 18px;
+            justify-content: center;
+            margin: 0 0 25px;
+        }
+        .custom-form .form-group {
+            margin-bottom: 30px;
+        }
+        .custom-checkbox .custom-label br {
+            display: none;
+        }
+        .form-btn {
+            font-size: 18px;
+            line-height: 18px;
+            padding: 14px 15px;
+            margin: 13px 0 55px;
+            height: auto;
+        }
+        .custom-checkbox .check {
+            height: 25px;
+            width: 25px;
+        }
+        .custom-checkbox .custom-control-input {
+            height: 25px;
+            width: 25px;
+        }
+        .custom-checkbox .custom-label {
+            padding-left: 10px;
+        }
+        .custom-checkbox {
+            margin-bottom: 30px;
+        }
+        .verification .socail-icon li {
+            padding: 0 6px;
+        }
+        .verification .socail-icon li a {
+            font-size: 24px;
+            line-height: 24px;
+        }
+        .verification .form-btn {
+            width: auto;
+            margin: 0 auto 30px;
+        }
+        .verification .socail-icon {
+            padding: 24px 0 10px;
+        }
+        /* login page end */
+        /* footer section start */
+        .f-top {
+            padding: 13px 0 35px;
+        }
+        .f-block {
+            margin-bottom: 25px;
+        }
+        .f-block li a {
+            font-size: 18px;
+            line-height: 18px;
+            margin-bottom: 7px;
+        }
+        .f-block h3 {
+            font-size: 18px;
+            line-height: 18px;
+            margin: 0 0 9px;
+        }
+        .f-bottom {
+            padding: 13px 10px;
+        }
+        /* footer section end */
+        .verification-code a {
+            margin: 0 0 15px;
+            font-size: 22px;
+            line-height: 26px;
+        }
+        .verification-code h2 {
+            margin: 0 0 15px;
+            font-size: 20px;
+            line-height: 22px;
+        }
+        .verification-code p {
+            margin: 0 0 15px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        .verification-code h6,
+        .verification-code a {
+            margin: 0;
+            font-size: 19px;
+            line-height: 19px;
+        }
+        .support .nav-tabs .nav-item .nav-link {
+            height: 100px;
+            width: 502px;
+        }
+        /* insrucation page start */
+        .inact-community {
+            padding: 38px 0 35px;
+        }
+        .community-detail p {
+            font-size: 16px;
+            line-height: 19px;
+            margin: 0 0 20px;
+        }
+        .inact-tab .tab-content {
+            padding: 10px 10px 20px;
+        }
+        .inact-community .nav-tabs .nav-item .nav-link {
+            font-size: 13px;
+            line-height: 17px;
+            padding: 12px 10px;
+            width: 139px;
+        }
+        .inact-community .nav-tabs .nav-item {
+            margin-bottom: 15px;
+            padding: 0 4px;
+        }
+        .inact-community .nav-tabs {
+            margin-top: 30px;
+        }
+        .custon-accordian .accordion .card .card-header {
+            padding: 5px 10px;
+            margin-bottom: 25px;
+        }
+        .custon-accordian .accordion .card .card-header .btn {
+            font-size: 19px;
+            line-height: 29px;
+        }
+        .custon-accordian .accordion .card .card-header .btn.collapsed::after {
+            width: 20px;
+            height: 11px;
+            right: 5px;
+        }
+        .custon-accordian .accordion .card .card-header .btn::after {
+            width: 20px;
+            height: 11px;
+            right: 5px;
+        }
+        /* insrucation page end */
+        /* faq  page start */
+        .home-page h1 {
+            font-size: 21px;
+            line-height: 21px;
+        }
+        .suport-banner {
+            margin: 15px 8px 0;
+            padding: 60px 0 60px;
+        }
+        .inact-community .nav-tabs .nav-link svg {
+            width: 27px;
+            height: 38px;
+            margin-bottom: 15px;
+        }
+        .inact-community .nav-tabs .nav-link svg.call {
+            width: 40px;
+            height: 40px;
+        }
+        .contact-detail h2 {
+            font-size: 18px;
+            line-height: 22px;
+            margin: 0 0 30px;
+        }
+        .mail-icon a {
+            font-size: 17px;
+            line-height: 17px;
+            padding-left: 15px;
+        }
+        .mail-icon img {
+            width: 35px;
+            height: 22px;
+        }
+        .follow-inact li {
+            padding: 0 10px;
+        }
+        .follow-inact li a {
+            width: 40px;
+            height: 40px;
+        }
+        .follow-inact li a img {
+            width: 20px;
+            height: 20px;
+        }
+        .follow-inact h2 {
+            font-size: 22px;
+            line-height: 22px;
+            margin: 0 0 15px;
+        }
+        .contact-detail {
+            margin-bottom: 25px;
+        }
+        /* faq  page end */
+        /* teach page start */
+        .inact-block .row [class*=col-] {
+            padding: 0 15px;
+        }
+        .inact-block .row {
+            margin: 0 -15px;
+        }
+        .inact-block {
+            padding: 20px 0 35px;
+            margin: 41px 0 45px;
+        }
+        .cource-build img {
+            width: 100px;
+        }
+        .cource-build h2 {
+            font-size: 21px;
+            line-height: 23px;
+            margin: 9px 0;
+            height: auto;
+        }
+        .cource-build p {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .cource-build {
+            margin-bottom: 25px;
+        }
+        .video-detail h2 {
+            font-size: 21px;
+            line-height: 31px;
+            padding: 0 0 12px;
+        }
+        .video-detail-main {
+            margin-top: 35px;
+        }
+        .video-detail h2::after {
+            width: auto;
+            height: 4px;
+        }
+        .video-detail p {
+            font-size: 16px;
+            line-height: 20px;
+            margin: 10px 0 0;
+        }
+        .video-detail {
+            margin-bottom: 25px;
+        }
+        /* teach page end */
     }
-}
-
-
-/*---------- Large Desktop , Large Screen End ----------*/
+    
+    @media (min-width: 768px) {}
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        /* login page start */
+        .login-page-main {
+            margin: 50px 0 22px;
+        }
+        .login-page .nav-tabs .nav-item .nav-link {
+            font-size: 35px;
+            line-height: 35px;
+            padding: 9px 10px;
+        }
+        .login-details h2 {
+            font-size: 28px;
+            line-height: 28px;
+            margin: 50px 0 37px;
+        }
+        .custom-form .form-control {
+            height: 67px;
+        }
+        .custom-form .form-group {
+            margin-bottom: 35px;
+        }
+        .forgot {
+            font-size: 21px;
+            line-height: 21px;
+        }
+        .form-btn {
+            font-size: 23px;
+            line-height: 23px;
+            height: 66px;
+        }
+        .custom-checkbox {
+            margin-bottom: 30px;
+        }
+        /* login page end */
+        /* instruction page start */
+        .inact-community .nav-tabs .nav-item .nav-link {
+            font-size: 26px;
+            line-height: 26px;
+            padding: 24px 10px;
+            width: 275px;
+        }
+        .inact-community .nav-tabs .nav-item {
+            margin-bottom: 45px;
+            padding: 0 17px;
+        }
+        .inact-community .nav-tabs {
+            margin-top: 70px;
+        }
+        .community-detail p {
+            font-size: 26px;
+            line-height: 32px;
+            margin: 0 0 20px;
+        }
+        .inact-tab .tab-content {
+            padding: 30px 30px 60px;
+        }
+        .inact-community {
+            padding: 68px 0 45px;
+        }
+        .f-top {
+            padding: 33px 0 45px;
+        }
+        .f-block li a {
+            font-size: 19px;
+            line-height: 19px;
+            margin-bottom: 8px;
+        }
+        .f-block h3 {
+            font-size: 19px;
+            line-height: 19px;
+            margin-bottom: 8px;
+        }
+        .f-block {
+            margin-bottom: 20px;
+        }
+        /* instruction page end */
+        .inact-block .row [class*=col-] {
+            padding: 0 15px;
+        }
+        .inact-block .row {
+            margin: 0 -15px;
+        }
+        .inact-block {
+            padding: 20px 0 35px;
+            margin: 41px 0 45px;
+        }
+        .cource-build img {
+            width: 100px;
+        }
+        .cource-build h2 {
+            font-size: 21px;
+            line-height: 23px;
+            margin: 9px 0;
+            height: 56px;
+        }
+        .cource-build p {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .cource-build {
+            margin-bottom: 25px;
+        }
+        .video-detail h2 {
+            font-size: 21px;
+            line-height: 31px;
+            padding: 0 0 12px;
+        }
+        .video-detail-main {
+            margin-top: 15px;
+        }
+        .video-detail h2::after {
+            width: auto;
+            height: 4px;
+        }
+        .video-detail p {
+            font-size: 16px;
+            line-height: 20px;
+            margin: 10px 0 0;
+        }
+        .video-detail {
+            margin-bottom: 25px;
+        }
+        /* teach page end */
+    }
+    
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .inact-community .nav-tabs .nav-item .nav-link {
+            font-size: 25px;
+            line-height: 25px;
+            padding: 35px 10px;
+            width: 275px;
+        }
+        .inact-community .nav-tabs .nav-item {
+            margin-bottom: 45px;
+            padding: 0 25px;
+        }
+        .inact-community .nav-tabs {
+            margin-top: 70px;
+        }
+        .community-detail p {
+            font-size: 30px;
+            line-height: 34px;
+            margin: 0 0 30px;
+        }
+    }
+    
+    @media (min-width: 1200px) and (max-width: 1299px) {}
+    
+    @media (min-width: 1400px) and (max-width: 1499px) {
+        .inact-community .nav-tabs .nav-item .nav-link {
+            font-size: 25px;
+            line-height: 25px;
+            padding: 35px 10px;
+            width: 275px;
+        }
+        .inact-community .nav-tabs .nav-item {
+            margin-bottom: 45px;
+            padding: 0 35px;
+        }
+        .inact-community .nav-tabs {
+            margin-top: 70px;
+        }
+        .community-detail p {
+            font-size: 30px;
+            line-height: 34px;
+            margin: 0 0 30px;
+        }
+    }
+    
+    @media (min-width: 1500px) and (max-width: 1599px) {
+        .inact-community .nav-tabs .nav-item .nav-link {
+            font-size: 25px;
+            line-height: 25px;
+            padding: 35px 10px;
+            width: 275px;
+        }
+        .inact-community .nav-tabs .nav-item {
+            margin-bottom: 45px;
+            padding: 0 35px;
+        }
+        .inact-community .nav-tabs {
+            margin-top: 70px;
+        }
+        .community-detail p {
+            font-size: 30px;
+            line-height: 34px;
+            margin: 0 0 30px;
+        }
+    }
+    
+    @media (min-width: 1600px) and (max-width: 1699px) {
+        .inact-community .nav-tabs .nav-item .nav-link {
+            font-size: 25px;
+            line-height: 25px;
+            padding: 35px 10px;
+            width: 275px;
+        }
+        .inact-community .nav-tabs .nav-item {
+            margin-bottom: 45px;
+            padding: 0 35px;
+        }
+        .inact-community .nav-tabs {
+            margin-top: 70px;
+        }
+        .community-detail p {
+            font-size: 30px;
+            line-height: 34px;
+            margin: 0 0 30px;
+        }
+    }
+    
+    @media (min-width: 1300px) and (max-width: 1399px) {
+        .inact-community .nav-tabs .nav-item .nav-link {
+            font-size: 22px;
+            line-height: 22px;
+            padding: 28px 10px;
+            width: 255px;
+        }
+        .inact-community .nav-tabs .nav-item {
+            margin-bottom: 45px;
+            padding: 0 47px;
+        }
+    }
+    
+    @media (min-width: 1300px) {
+        .container {
+            max-width: 1270px;
+        }
+    }
+    
+    @media (min-width: 1800px) {
+        .inact-community .container {
+            max-width: 1760px;
+        }
+    }
+    
+    @media (min-width: 1700px) {
+        .teach-page .container {
+            max-width: 1730px;
+        }
+    }
+    /*---------- Large Desktop , Large Screen End ----------*/

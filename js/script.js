@@ -40,19 +40,7 @@ $(document).ready(function() {
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow: '<button class="slide-arrow prev-arrow"></button>',
-        nextArrow: '<button class="slide-arrow next-arrow"></button>',
     });
 
-    $('.count').each(function() {
-        $(this).prop('Counter', 0).animate({
-            Counter: $(this).text()
-        }, {
-            duration: 3300,
-            easing: 'swing',
-            step: function(now) {
-                $(this).text(Math.ceil(now));
-            }
-        });
-    });
+    
 });
